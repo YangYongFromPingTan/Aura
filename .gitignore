@@ -1,0 +1,25 @@
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# 插件里的生成目录
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# ===== IDE / 系统 =====
+.vs/
+*.sln
+*.suo
+*.sdf
+*.VC.db
+*.VC.opendb
+Thumbs.db
+.DS_Store
+
+# ===== 本地个人配置（不提交） =====
+Config/EditorPerProjectUserSettings.ini
+
+# ===== 保留 Content 里的资产，但忽略缓存 =====
+!Content/
